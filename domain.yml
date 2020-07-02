@@ -5,6 +5,8 @@ intents:
   - name_entry
   - ssn_entry
   - subject_entry
+  - thankyou
+
 entities:
   - name
   - ssn
@@ -18,9 +20,11 @@ slots:
   subject:
     type: unfeaturized
 
-actions:
+forms:
   - admission_form
+
 responses:
+
   utter_greet:
   - text: "Hey! How are you! Welcome to admission department?"
 
@@ -30,10 +34,14 @@ responses:
     - text: "Which subjects do you prefer?"
   utter_ask_ssn:
     - text: "Please enter your ssn(social security number)"
+
   utter_submit:
     - text: "Are you sure you want to submit?"
+
+  utter_ask_feedback:
+    - text: "what is the overall experience?"
   utter_goodbye:
-  - text: "Bye"
+    - text: "Bye"
   utter_slot_values:
     - text: "your following admission details are:
         - name: {name}\n

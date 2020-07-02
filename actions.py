@@ -24,5 +24,5 @@ class ActionHelloWorld(FormAction):
     def submit(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict]:
-        dispatcher.utter_message(text="Hello World!")
+        dispatcher.utter_message(template="utter_submit")
         return []

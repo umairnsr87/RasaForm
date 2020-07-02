@@ -6,6 +6,11 @@
 - good evening
 - hey there
 
+## intent:thankyou
+- thanks 
+- Thank you
+- Thnaks alot
+
 ## intent:goodbye
 - bye
 - goodbye
