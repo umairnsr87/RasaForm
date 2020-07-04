@@ -20,8 +20,8 @@ class ActionHelloWorld(FormAction):
     def required_slots(tracker: Tracker) -> List[Text]:
         print("required slots(tracker: Tracker)")
         return  ["name","ssn","subject"]
+    
     def slot_mappings(self) -> Dict[Text, Union[Dict, List[Dict]]]:
-
         return {
             "name": [self.from_entity(entity="name", intent='name_entry'),
                      self.from_text()],

@@ -26,7 +26,10 @@ forms:
 responses:
 
   utter_greet:
-  - text: "Hey! How are you! Welcome to admission department?"
+  - text: "Please answer some questions so that we can assist you better."
+    buttons:
+      - text : "Click here to fill details"
+        payload: "/admission_enquiry"
   utter_ask_name:
   - text: "What is your name?"
   utter_ask_subject:
