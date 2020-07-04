@@ -6,6 +6,6 @@
    - form{"name":"admission_form"}
    - form{"name":null}
    - utter_slot_values
-   - utter_ask_feedback
+   - utter_feedback
 * thankyou
     - utter_goodbye

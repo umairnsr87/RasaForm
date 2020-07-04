@@ -22,9 +22,6 @@
 - Phd admission
 - admission for phd
 - admission enquiry for phd
-- my name is [umair](name) and wanted admission in phd
-- my name is [karan](name) and wanted admission in phd
-- my name is [varun](name) and wanted admission in phd
 - phd admission for [umair](name)
 - phd admission for [karen](name)
 - phd admission for [angelica](name)
@@ -37,6 +34,9 @@
 - my name is [karen](name)
 - my name is [angelica](name)
 - my name is [vanissa](name)
+- my name is [umair](name) and wanted admission in phd
+- my name is [karan](name) and wanted admission in phd
+- my name is [varun](name) and wanted admission in phd
  
 ## intent:ssn_entry
 - [123456](ssn)
